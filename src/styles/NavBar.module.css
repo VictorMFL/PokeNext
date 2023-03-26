@@ -1,0 +1,40 @@
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1em 1.2em;
+  margin-bottom: 2em;
+  background-color: #333;
+  color: #fff;
+}
+
+.logo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.logo > h1 {
+  margin-left: 0.5em;
+}
+
+.linkItens {
+  display: flex;
+  list-style: none;
+}
+
+.linkItens > li {
+  margin-right: 1.3em;
+}
+
+.linkItens a {
+  text-decoration: none;
+  padding: 5px;
+  color: #fff;
+  transition: 0.5s;
+  border-bottom: 2px solid transparent;
+}
+
+.linkItens a:hover {
+  border-color: #fff;
+}
